@@ -1,4 +1,4 @@
-%PDF-1.3
+%PDF-1.4
 %‚„œ”
 1 0 obj
 <<
@@ -9,8 +9,8 @@ endobj
 2 0 obj
 <<
 /Type /Pages
-/Count 8
-/Kids [ 3 0 R 10 0 R 16 0 R 22 0 R 28 0 R 36 0 R 40 0 R 47 0 R ]
+/Count 9
+/Kids [ 3 0 R 10 0 R 16 0 R 22 0 R 28 0 R 36 0 R 40 0 R 47 0 R 56 0 R ]
 >>
 endobj
 3 0 obj
@@ -19,153 +19,27 @@ endobj
 /MediaBox [ 0 0 612 792 ]
 /Resources <<
 /Font 5 0 R
-/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
 /Rotate 0
 /Trans <<
 >>
 /Type /Page
 /Parent 2 0 R
+/Annots [ 53 0 R ]
 >>
 endobj
 4 0 obj
-<<
-/Length 1161
->>
-stream
-1 0 0 1 0 0 cm
-BT
-/F1 12 Tf
-14.4 TL
-ET
-q
-1 0 0 1 48 694 cm
-Q
-q
-1 0 0 1 48 674 cm
-q
-0 0 0 rg
-BT
-1 0 0 1 0 6 Tm
-/F2 14 Tf
-20 TL
-150.095 0 Td
-(Universidad Cooperativa de Colombia) Tj
-T*
--150.095 0 Td
-ET
-Q
-Q
-q
-1 0 0 1 48 614 cm
-Q
-q
-1 0 0 1 48 530 cm
-q
-BT
-1 0 0 1 0 61 Tm
-210.712 0 Td
-28 TL
-/F3 23 Tf
-0 0 0 rg
-(ScoutLab) Tj
-T*
--143.428 0 Td
-(Sistema de apoyo al scouting deportivo) Tj
-T*
-94.254 0 Td
-(con Random Forest) Tj
-T*
--161.538 0 Td
-ET
-Q
-Q
-q
-1 0 0 1 48 466 cm
-q
-BT
-1 0 0 1 0 26 Tm
-153.217 0 Td
-20 TL
-/F2 14 Tf
-0 0 0 rg
-(Evaluaci\363n final de Miner\355a de Datos) Tj
-T*
-34.195 0 Td
-(Metodolog\355a CRISP\055DM) Tj
-T*
--187.412 0 Td
-ET
-Q
-Q
-q
-1 0 0 1 48 403 cm
-Q
-q
-1 0 0 1 48 363 cm
-q
-BT
-1 0 0 1 0 26 Tm
-201.237 0 Td
-20 TL
-/F2 14 Tf
-0 0 0 rg
-(Dody Cortez Duarte) Tj
-T*
-18.858 0 Td
-(Miguel Zarza) Tj
-T*
--220.095 0 Td
-ET
-Q
-Q
-q
-1 0 0 1 48 311 cm
-Q
-q
-1 0 0 1 48 271 cm
-q
-BT
-1 0 0 1 0 26 Tm
-234.676 0 Td
-20 TL
-/F2 14 Tf
-0 0 0 rg
-(Docente) Tj
-T*
--90.027 0 Td
-(ROYER ELIECER MEJIA VILLALBA) Tj
-T*
--144.649 0 Td
-ET
-Q
-Q
-q
-1 0 0 1 48 219 cm
-Q
-q
-1 0 0 1 48 199 cm
-q
-0 0 0 rg
-BT
-1 0 0 1 0 6 Tm
-/F2 14 Tf
-20 TL
-195.791 0 Td
-(31 de octubre de 2026) Tj
-T*
--195.791 0 Td
-ET
-Q
-Q
-
-endstream
+[ 54 0 R 55 0 R ]
 endobj
 5 0 obj
 <<
 /F1 6 0 R
+/F1-0 50 0 R
 /F2 7 0 R
+/F2-0 51 0 R
 /F3 8 0 R
+/F3-0 52 0 R
 /F4 9 0 R
 >>
 endobj
@@ -2590,64 +2464,385 @@ endobj
 /Trapped (\057False)
 >>
 endobj
+50 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+51 0 obj
+<<
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+52 0 obj
+<<
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+53 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057github\056com\057DodyCe\057scoutlab)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 215.826 140 396.174 156 ]
+/Subtype /Link
+/Type /Annot
+/P 3 0 R
+>>
+endobj
+54 0 obj
+<<
+/Length 1166
+>>
+stream
+q
+1 0 0 1 0 0 cm
+BT
+/F1 12 Tf
+14.4 TL
+ET
+q
+1 0 0 1 48 694 cm
+Q
+q
+1 0 0 1 48 674 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 6 Tm
+/F2 14 Tf
+20 TL
+150.095 0 Td
+(Universidad Cooperativa de Colombia) Tj
+T*
+-150.095 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 48 614 cm
+Q
+q
+1 0 0 1 48 530 cm
+q
+BT
+1 0 0 1 0 61 Tm
+210.712 0 Td
+28 TL
+/F3 23 Tf
+0 0 0 rg
+(ScoutLab) Tj
+T*
+-143.428 0 Td
+(Sistema de apoyo al scouting deportivo) Tj
+T*
+94.254 0 Td
+(con Random Forest) Tj
+T*
+-161.538 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 48 466 cm
+q
+BT
+1 0 0 1 0 26 Tm
+153.217 0 Td
+20 TL
+/F2 14 Tf
+0 0 0 rg
+(Evaluaci\363n final de Miner\355a de Datos) Tj
+T*
+34.195 0 Td
+(Metodolog\355a CRISP\055DM) Tj
+T*
+-187.412 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 48 403 cm
+Q
+q
+1 0 0 1 48 363 cm
+q
+BT
+1 0 0 1 0 26 Tm
+201.237 0 Td
+20 TL
+/F2 14 Tf
+0 0 0 rg
+(Dody Cortez Duarte) Tj
+T*
+18.858 0 Td
+(Miguel Zarza) Tj
+T*
+-220.095 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 48 311 cm
+Q
+q
+1 0 0 1 48 271 cm
+q
+BT
+1 0 0 1 0 26 Tm
+234.676 0 Td
+20 TL
+/F2 14 Tf
+0 0 0 rg
+(Docente) Tj
+T*
+-90.027 0 Td
+(ROYER ELIECER MEJIA VILLALBA) Tj
+T*
+-144.649 0 Td
+ET
+Q
+Q
+q
+1 0 0 1 48 219 cm
+Q
+q
+1 0 0 1 48 199 cm
+q
+0 0 0 rg
+BT
+1 0 0 1 0 6 Tm
+/F2 14 Tf
+20 TL
+195.791 0 Td
+(31 de octubre de 2026) Tj
+T*
+-195.791 0 Td
+ET
+Q
+Q
+
+Q
+
+endstream
+endobj
+55 0 obj
+<<
+/Length 302
+>>
+stream
+q
+0.0 0.0 612 792 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+BT
+/F2-0 12 Tf
+14.4 TL
+ET
+BT
+1 0 0 1 243.342 161 Tm
+(Repositorio del proyecto) Tj
+T*
+ET
+BT
+/F3-0 12 Tf
+14.4 TL
+ET
+0.078431 0.305882 0.407843 rg
+BT
+1 0 0 1 218.826 144 Tm
+(https\072\057\057github\056com\057DodyCe\057scoutlab) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+56 0 obj
+<<
+/Annots [ 57 0 R ]
+/Contents 58 0 R
+/MediaBox [ 0 0 612 792 ]
+/Resources <<
+/Font 59 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+57 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (http\072\057\057127\0560\0560\0561\0728000)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 90.268 167.3 182.866 180.5 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+58 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 2337
+>>
+stream
+Gatm<gMYb8&:Ml+lq7>d:hW`c96kSpVb#bl:9F01J?^;"dMh1!ZV.<!^:n67(L>3@7:AHIaQ:Y!R58Jf)2SoS&V%fg&F\c@idE)HJXA)Z1^Z]]IOB$rYJ.]-lBUD'\/^I3(tV*gk#S\T=O^Nk1E!8&6o6&;K90pAY3mBe;=s,8_t@jh5((#X]D[!OBmt4'iGggoIM+TKio0b*fD47Q]3iMS=j2@A[pSWKi-I/LFLdF/Q1(E&U3[&So)9sE_JhCP@p=G>hJF`_B=B?CX=1G28gMuGAQh9%+,F,G'J7\"E`RF=Y:>l6)NeK/+q&d9l2%EE/s3Mc@K!Z5233'k.SXC:X-"@/P)4>+SjEXSbiWn)*_T?KOXmoj.4dLpl\,tN,_q5:A,SBW%#me]#IVUj#+Zp+%(eh_CpR(%G[+ebi*Qg=>HcdngH-83\`CFPhs!<5/,+gh\0SOX3nQSCW50m.hSg9:Y$=N$/n/T)d\EoNnh#4Cjg6BBRn8JN<\=!E4M^`3qs`^-A#;q.S[!aET5S!.e4X[b+l-(/Z-Js4!6`)M$haWmWGHa*nUAt=b#>iNc6#:*(U6Zo&e>U\,_/>Y+.$-%C8)S>PLZLef9-+QT[,HGAQGW7.Bo]+h\nbFO9o>%`#ZpRo_7UAnqAX!o`eN:bKR4t2o5"MaAX(K9^maf;K#^2"?&$CNY$a(1%Ir$/j4"nko>5jQ.iLH6A']B7_RD3"Nis.<#=h)r':8t)`Sl@#&&HG-BGdPFY\5)*;p6p%8Wqp^r4J/ltIkS<u[k^-mRJ;&)'+U/(Hu[74(a&%.5>S>_EkLfjbf:1<,+?*5:H8h!5rb0ZUHVrCbY'WD-p%D.t80#[<OI>$8mdd#nL@OENa*L`.(k.,7QT,R/R9D8@]%dBk'M=A"[oe4ChP[F*\_38tEmZK81V/Qeim+]Ddj/4@VC154^!q$u&R#jb#26E6!k#*O,-%_[QSdV3B0B9Ek)T9cO%e_YN@e/.\doRO4^Fa;Rt\m1:cdspEp3^sfQj6;d2]8LKT.$>f!)mai4<0]Z4"-:>sj;'WgWEqOgM%4#ear=sSNn-Jd@L7M.A[[,KEFal\$T=&P61iXL.aA)AH.Z-0<Z-]o[gsd&I6fbc,$i00=Fh/GB#(m=bS-"H,,5C)Un3I<e351sH)Uet`[".bK:=-ROFRRi-'9G:,Pr_rD>&<8+;;A@-p`8RhU[-t5W`[h78C;'^<4*d_@',CroS=nTVRLtf70A(+\DrM!asW'^Kjs:\Cbs^U.oHn_X^Z":)7uN4bM-4:+BhC1fJ9(6qg3P1u8+T3$%oE'naN-:l^e*U>/i_Ts6M<;SGrF=CTS&@$/Oo`f&+ZgS@VMa[f<gcBr$;.'f!pjZ33Rq^e_c/!&NRU;![-BW0!o;Jhg*Un)oH<D+ZqK6!GB6Hqd6:Oi_k?'dX6^Si'tPE0Q`BX<#*bM_&+:_osWoXQ6pX41o4.ZJoNcc@Jt`\J']1H$g@,:g=-<IppU/$9VA5:7seVCR@qqVqbfJg.Qr--*1d%d?.?[U-&FBSe&7gm/NoWY*24ico\'N#Brj?4sFbM1cTM:K%[mi5"k..F/EukPPj&P:g,La+N(78/G(b3A^m3'!.!B4Xj&u\oreLa(>n#rdJ)9n(QF&SosP;R?i>Pq#$!EE%D)a<Q+3%]fJ`@bk7/hCNN5oVrbJB:K@"9M9]]D"a1f=+ZI7?)q[oD&A7Nk`GUPg3TE>fg,oDSO5+2^#p].cFoR#Q+stlS__igPgK-aJ^Ek.7l;Ya`LA.D\47Ip\)bO\<V2/o]2Pj#):&dMK=_P+5d"FdRT#eT3%i6uR9"=lGO"[<(o]upj&f*\!E(6m?UD'*kW&>XOC29N,q1FFtB23ST>'VK>,<JUUE(E\hDsZ?1gU&FQ6?s]Dg)s>B"lc*RD_,AV6oukZ>)Q=8netQ0F2aHFC4EHK3IftUH>1Go%]aKh5+STXk4',]gu(9V8,tE9O<_0S?[(RcSHn3HRW0!s)c]T9XjHV!hF*;i6$grC3gq0I?-Xm=kDnX\&_+i%l#I\Q'=E$Bh_sJTb;g$Y-j0Co31?LO0s)$b8X(I)URD<i;snU<rmL^pD:,Eu3'oJ.lB`Au0ambn#/q+go51`:[PsU&2`er=;`(o\<p$r;o7jgcQZ4C'l/;RDE$B0i8A\+Ij/>97PGNJg;?h):AFmKW;<2XK/u$0nJ5-\EDd1ON*_R-R<6"O"1)RC=j"27u/2$:`H6G'^pFdb]d!43q.20)o9K<DDIl^td23duihV6uf.,;9r)sl=Oog]\c3hR?.[s*g8GjRDN@[=5d`>F0[=h/iWUM0HmH^^_1G=9Ik'<hB>'2G8<~>
+endstream
+endobj
+59 0 obj
+<<
+/F1 60 0 R
+/F2 61 0 R
+/F3 62 0 R
+/F4 63 0 R
+/F5 64 0 R
+>>
+endobj
+60 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+61 0 obj
+<<
+/BaseFont /Times-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+62 0 obj
+<<
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+63 0 obj
+<<
+/BaseFont /Times-Italic
+/Encoding /WinAnsiEncoding
+/Name /F4
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+64 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F5
+/Subtype /Type1
+/Type /Font
+>>
+endobj
 xref
-0 50
+0 65
 0000000000 65535 f 
 0000000015 00000 n 
 0000000064 00000 n 
-0000000172 00000 n 
-0000000361 00000 n 
-0000001574 00000 n 
-0000001635 00000 n 
-0000001742 00000 n 
-0000001851 00000 n 
-0000001959 00000 n 
-0000002069 00000 n 
-0000002261 00000 n 
-0000006333 00000 n 
-0000006388 00000 n 
-0000006496 00000 n 
-0000006605 00000 n 
-0000006715 00000 n 
-0000006907 00000 n 
-0000011084 00000 n 
-0000011139 00000 n 
-0000011247 00000 n 
-0000011356 00000 n 
-0000011466 00000 n 
-0000011770 00000 n 
-0000012813 00000 n 
-0000075305 00000 n 
-0000075881 00000 n 
-0000190436 00000 n 
-0000191005 00000 n 
-0000191261 00000 n 
-0000194064 00000 n 
-0000194119 00000 n 
-0000194227 00000 n 
-0000194336 00000 n 
-0000194446 00000 n 
-0000256750 00000 n 
-0000257305 00000 n 
-0000257609 00000 n 
-0000259025 00000 n 
-0000267666 00000 n 
-0000417291 00000 n 
-0000417547 00000 n 
-0000419037 00000 n 
-0000419092 00000 n 
-0000419200 00000 n 
-0000419309 00000 n 
-0000419419 00000 n 
-0000569081 00000 n 
-0000569272 00000 n 
-0000574858 00000 n 
+0000000179 00000 n 
+0000000387 00000 n 
+0000000420 00000 n 
+0000000520 00000 n 
+0000000627 00000 n 
+0000000736 00000 n 
+0000000844 00000 n 
+0000000954 00000 n 
+0000001146 00000 n 
+0000005218 00000 n 
+0000005273 00000 n 
+0000005381 00000 n 
+0000005490 00000 n 
+0000005600 00000 n 
+0000005792 00000 n 
+0000009969 00000 n 
+0000010024 00000 n 
+0000010132 00000 n 
+0000010241 00000 n 
+0000010351 00000 n 
+0000010655 00000 n 
+0000011698 00000 n 
+0000074190 00000 n 
+0000074766 00000 n 
+0000189321 00000 n 
+0000189890 00000 n 
+0000190146 00000 n 
+0000192949 00000 n 
+0000193004 00000 n 
+0000193112 00000 n 
+0000193221 00000 n 
+0000193331 00000 n 
+0000255635 00000 n 
+0000256190 00000 n 
+0000256494 00000 n 
+0000257910 00000 n 
+0000266551 00000 n 
+0000416176 00000 n 
+0000416432 00000 n 
+0000417922 00000 n 
+0000417977 00000 n 
+0000418085 00000 n 
+0000418194 00000 n 
+0000418304 00000 n 
+0000567966 00000 n 
+0000568157 00000 n 
+0000573743 00000 n 
+0000574118 00000 n 
+0000574226 00000 n 
+0000574335 00000 n 
+0000574445 00000 n 
+0000574647 00000 n 
+0000575866 00000 n 
+0000576220 00000 n 
+0000576431 00000 n 
+0000576617 00000 n 
+0000579047 00000 n 
+0000579124 00000 n 
+0000579232 00000 n 
+0000579341 00000 n 
+0000579451 00000 n 
+0000579562 00000 n 
 trailer
 <<
-/Size 50
+/Size 65
 /Root 1 0 R
 /Info 49 0 R
 >>
 startxref
-575233
+579668
 %%EOF
