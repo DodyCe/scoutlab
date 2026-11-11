@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ScoutLab · Evaluación de jugadores</title>
+<style>
+:root{color-scheme:light;--ink:#152e3d;--muted:#5f707b;--line:#dce5e6;--green:#087e70;--paper:#f2f6f5}
+*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--paper);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{height:82px;background:#102c3b;color:white;display:flex;align-items:center;justify-content:space-between;padding:0 max(5vw,24px)}
+.brand{font-size:23px;font-weight:750;letter-spacing:-.8px}.brand span{color:#6ee2c2}.course{font-size:13px;color:#c3d4db}
+main{max-width:1150px;margin:0 auto;padding:48px 28px 28px}.eyebrow{color:var(--green);font-size:12px;font-weight:750;letter-spacing:1.8px;text-transform:uppercase}
+h1{font-size:clamp(30px,4vw,44px);line-height:1.15;letter-spacing:-1.3px;margin:9px 0 14px} .intro{color:var(--muted);max-width:680px;margin:0 0 32px}
+.layout{display:grid;grid-template-columns:1.08fr 1fr;gap:25px;align-items:stretch}.panel{background:white;border:1px solid var(--line);border-radius:16px;padding:28px}
+.section-title{font-size:19px;letter-spacing:-.3px;margin:0 0 5px}.hint{color:var(--muted);font-size:13px;margin:0 0 23px}
+label{display:block;font-size:14px;font-weight:650;margin:0 0 7px}.field{margin-bottom:19px}.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+input,select{width:100%;border:1px solid #bdcdd0;border-radius:8px;background:#fff;padding:12px;color:var(--ink);font:inherit;min-height:47px}
+input:focus,select:focus{outline:3px solid #a9e0d5;outline-offset:1px;border-color:var(--green)}.help{font-size:12px;color:var(--muted);margin-top:6px}
+button{min-height:48px;border:0;border-radius:8px;cursor:pointer;font:inherit;font-weight:650}button:focus-visible{outline:3px solid #69b9ab;outline-offset:3px}
+.primary{width:100%;background:var(--green);color:white}.primary:hover{background:#066c61}.primary:disabled{opacity:.65;cursor:wait}.secondary{background:transparent;color:var(--muted);width:100%;margin-top:6px}
+.result-panel{display:flex;flex-direction:column}.status{display:flex;align-items:center;gap:8px;color:var(--muted);font-size:12px;margin-bottom:28px}.dot{width:7px;height:7px;background:#1a9b7d;border-radius:50%}
+.placeholder{display:flex;flex:1;min-height:260px;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:var(--muted)}
+.mark{display:grid;place-items:center;width:64px;height:64px;border:1px solid #cde3dd;background:#eef8f4;border-radius:50%;color:var(--green);font-size:30px;margin-bottom:15px}
+.placeholder h2{font-size:20px;color:var(--ink);margin:0 0 10px}.placeholder p{max-width:290px;font-size:14px;margin:0}
+.result-name{font-size:24px;line-height:1.2;overflow-wrap:anywhere;margin:5px 0 14px}.badge{display:inline-block;font-size:13px;padding:6px 12px;background:#e1f4ed;color:#076658;border-radius:30px;font-weight:650}
+.badge.standard{background:#edf0f6;color:#455b74}.prob-title{font-size:13px;color:var(--muted);margin-top:26px}.probability{font-size:52px;line-height:1.2;letter-spacing:-2px;font-weight:700;margin:7px 0 16px}
+.track{height:13px;border-radius:20px;background:#e7eeec;overflow:hidden}.fill{height:100%;background:var(--green);width:0;transition:width .5s ease;border-radius:20px}.scale{display:flex;justify-content:space-between;color:var(--muted);font-size:11px;margin-top:5px}
+.interpretation{font-size:14px;line-height:1.6;margin:22px 0;color:#435d69}.summary{border-top:1px solid var(--line);padding-top:14px;color:var(--muted);font-size:12px;margin-top:auto}.notice{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:17px;margin-top:28px}
+.error{background:#fff1ed;color:#9e3928;padding:12px;border-radius:8px;font-size:14px;margin-bottom:15px}.bottom{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);padding:24px 2px 0;gap:12px} [hidden]{display:none!important}
+@media(max-width:720px){header{height:70px;padding:0 20px}.course{max-width:150px;text-align:right;font-size:11px}main{padding:30px 18px}.layout{grid-template-columns:1fr}.panel{padding:22px}.two{gap:12px}.placeholder{min-height:220px}.bottom{flex-direction:column}.result-panel{min-height:390px}}
+@media(prefers-reduced-motion:reduce){.fill{transition:none}}
+</style>
+</head>
+<body>
+<header><div class="brand">Scout<span>Lab</span></div><div class="course">Analítica aplicada al scouting deportivo</div></header>
+<main>
+<div class="eyebrow">Evaluación de candidatos</div>
+<h1>Un perfil, una nueva perspectiva.</h1>
+<p class="intro">Consulta cómo clasifica el modelo a un jugador a partir de su posición, estatura y edad. Usa el resultado como apoyo para una primera revisión.</p>
+<div class="layout">
+<section class="panel" aria-labelledby="form-title">
+<h2 class="section-title" id="form-title">Perfil del jugador</h2><p class="hint">Completa los cuatro campos para realizar el análisis.</p>
+<form id="player-form">
+<div class="field"><label for="jugador">Nombre del jugador</label><input id="jugador" name="jugador" minlength="2" maxlength="100" required autocomplete="off" placeholder="Nombre y apellido"></div>
+<div class="field"><label for="posicion">Posición</label><select id="posicion" name="posicion" required><option value="">Selecciona una posición</option><option value="Attack">Delantero</option><option value="Midfield">Mediocampista</option><option value="Defender">Defensa</option><option value="Goalkeeper">Portero</option></select></div>
+<div class="two"><div class="field"><label for="estatura">Estatura en cm</label><input id="estatura" name="estatura_cm" type="number" min="155" max="210" step="0.1" required placeholder="Ej. 180" inputmode="decimal"><div class="help">Entre 155 y 210 cm.</div></div>
+<div class="field"><label for="edad">Edad en años</label><input id="edad" name="edad" type="number" min="18" max="56" step="1" required placeholder="Ej. 23" inputmode="numeric"><div class="help">Entre 18 y 56 años.</div></div></div>
+<div id="error" class="error" role="alert" hidden></div>
+<button class="primary" id="analyze" type="submit">Analizar jugador <span aria-hidden="true">→</span></button>
+<button class="secondary" type="reset">Limpiar formulario</button>
+</form>
+</section>
+<section class="panel result-panel" aria-labelledby="result-title" aria-live="polite" aria-busy="false" id="result-panel">
+<h2 class="section-title" id="result-title">Resultado del análisis</h2><div class="status"><span class="dot" aria-hidden="true"></span><span id="status-text">Modelo de bosque aleatorio</span></div>
+<div id="empty" class="placeholder"><div class="mark" aria-hidden="true">◎</div><h2>Conoce el perfil del candidato</h2><p>Al completar el formulario aparecerán la clasificación y la probabilidad estimada de pertenecer al grupo élite.</p></div>
+<div id="result" hidden>
+<div class="eyebrow">Candidato evaluado</div><h3 class="result-name" id="result-name"></h3><span class="badge" id="classification"></span>
+<div class="prob-title">Probabilidad estimada de pertenecer al grupo élite</div><div class="probability" id="probability"></div>
+<div class="track" id="progress" role="progressbar" aria-label="Probabilidad estimada de élite" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="fill" id="fill"></div></div><div class="scale"><span>0 %</span><span>100 %</span></div>
+<p class="interpretation" id="interpretation"></p><div class="summary" id="summary"></div>
+</div>
+<p class="notice">La clase élite se define por el percentil 75 del valor de mercado de los datos analizados. El porcentaje es una estimación del modelo, no una garantía ni una valoración económica del jugador.</p>
+</section>
+</div>
+<footer class="bottom"><span>Proyecto académico · Minería de Datos</span><span>Universidad Cooperativa de Colombia</span></footer>
+</main>
+<script>
+const form=document.querySelector('#player-form'), button=document.querySelector('#analyze'), error=document.querySelector('#error');
+const labels={Attack:'Delantero',Midfield:'Mediocampista',Defender:'Defensa',Goalkeeper:'Portero'};
+const el=id=>document.getElementById(id);
+function showError(message){error.textContent=message;error.hidden=false;}
+form.addEventListener('submit',async event=>{
+ event.preventDefault();error.hidden=true;
+ const data={jugador:el('jugador').value.trim(),posicion:el('posicion').value,estatura_cm:Number(el('estatura').value),edad:Number(el('edad').value)};
+ if(data.jugador.length<2){showError('Escribe un nombre de al menos dos caracteres.');return;}
+ if(!Number.isInteger(data.edad)||data.edad<Number(el('edad').min)||data.edad>Number(el('edad').max)){showError('Escribe una edad entera entre 18 y 56 años.');return;}
+ if(!Number.isFinite(data.estatura_cm)||data.estatura_cm<Number(el('estatura').min)||data.estatura_cm>Number(el('estatura').max)){showError('La estatura debe estar entre 155 y 210 cm.');return;}
+ button.disabled=true;button.textContent='Analizando perfil…';el('result-panel').setAttribute('aria-busy','true');el('result').hidden=true;el('empty').hidden=false;el('status-text').textContent='Análisis en curso';
+ try{
+  const response=await fetch('/predict',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});
+  if(!response.ok){throw new Error(response.status===422?'Revisa el nombre, la posición, la estatura y la edad del jugador.':'No se pudo completar el análisis. Intenta de nuevo.');}
+  const result=await response.json();const value=result.probabilidad_elite;
+  el('result-name').textContent=result.jugador;el('classification').textContent=result.clasificacion;el('classification').className='badge'+(result.clasificacion==='Estándar'?' standard':'');
+  el('probability').textContent=new Intl.NumberFormat('es-CO',{maximumFractionDigits:2}).format(value)+' %';el('progress').setAttribute('aria-valuenow',String(value));el('fill').style.width=value+'%';
+  el('interpretation').textContent=result.clasificacion==='Élite'?'El modelo ubica este perfil en el grupo élite. El siguiente paso es revisar al candidato con el equipo de scouting.':'El modelo ubica este perfil en el grupo estándar. Esta estimación se basa únicamente en la edad, la estatura y la posición.';
+  el('summary').textContent=labels[data.posicion]+' · '+data.estatura_cm+' cm · '+data.edad+' años';el('empty').hidden=true;el('result').hidden=false;el('status-text').textContent='Análisis completado';
+ }catch(exception){showError(exception instanceof TypeError?'No se pudo conectar con el servicio. Comprueba que el aplicativo esté iniciado.':exception.message);el('status-text').textContent='Análisis no completado';}
+ finally{button.disabled=false;button.innerHTML='Analizar jugador <span aria-hidden="true">→</span>';el('result-panel').setAttribute('aria-busy','false');}
+});
+form.addEventListener('reset',()=>{error.hidden=true;el('result').hidden=true;el('empty').hidden=false;el('fill').style.width='0%';el('status-text').textContent='Modelo de bosque aleatorio';});
+form.addEventListener('input',()=>{error.hidden=true;el('result').hidden=true;el('empty').hidden=false;el('status-text').textContent='Perfil pendiente de análisis';});
+form.addEventListener('invalid',event=>{
+ const campo=event.target;
+ if(campo.id==='edad'&&(campo.validity.rangeUnderflow||campo.validity.rangeOverflow||campo.validity.stepMismatch)){showError('Escribe una edad entera entre 18 y 56 años.');}
+ if(campo.id==='estatura'&&(campo.validity.rangeUnderflow||campo.validity.rangeOverflow)){showError('La estatura debe estar entre 155 y 210 cm.');}
+},true);
+</script>
+</body></html>
